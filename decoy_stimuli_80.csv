@@ -1,0 +1,81 @@
+﻿Trial,Item,Condition,Question,Option_A,Price_A,Option_B,Price_B,Option_C,Price_C,Target
+1,Coffee,no_decoy,Which coffee would you choose?,A. Premium Coffee,₹ 180.00,B. Regular Coffee,₹ 140.00,,,A
+3,Pizza,no_decoy,Which pizza would you choose?,A. Large Pizza,₹ 450.00,B. Medium Pizza,₹ 330.00,,,A
+5,Burger Meal,no_decoy,Which burger meal would you choose?,A. Premium Burger Meal,₹ 350.00,B. Regular Burger Meal,₹ 250.00,,,A
+7,Shake,no_decoy,Which shake would you choose?,A. Large Shake,₹ 220.00,B. Medium Shake,₹ 160.00,,,A
+9,Wine,no_decoy,Which wine would you choose?,A. Premium Wine,₹ 900.00,B. Regular Wine,₹ 650.00,,,A
+11,Biscuit Packet,no_decoy,Which biscuit packet would you choose?,A. Large Biscuit Pack,₹ 100.00,B. Regular Biscuit Pack,₹ 60.00,,,A
+13,Juice Bottle,no_decoy,Which juice bottle would you choose?,A. 1 Litre Juice,₹ 120.00,B. 500 ml Juice,₹ 70.00,,,A
+15,Milk,no_decoy,Which milk would you choose?,A. 1 Litre Milk,₹ 70.00,B. 500 ml Milk,₹ 40.00,,,A
+17,Cheese,no_decoy,Which cheese would you choose?,A. 500 g Cheese,₹ 300.00,B. 250 g Cheese,₹ 180.00,,,A
+19,Butter,no_decoy,Which butter would you choose?,A. 500 g Butter,₹ 280.00,B. 250 g Butter,₹ 150.00,,,A
+21,Ice Cream,no_decoy,Which ice cream would you choose?,A. 1 Litre Ice Cream,₹ 250.00,B. 500 ml Ice Cream,₹ 140.00,,,A
+23,Chocolate Bar,no_decoy,Which chocolate bar would you choose?,A. Large Dark Chocolate Bar (150 g),₹ 220.00,B. Regular Chocolate Bar (80 g),₹ 120.00,,,A
+25,Chips,no_decoy,Which chips pack would you choose?,A. Large Chips Pack,₹ 80.00,B. Regular Chips Pack,₹ 50.00,,,A
+27,Tea,no_decoy,Which tea would you choose?,A. Premium Tea (500 g),₹ 400.00,B. Regular Tea (250 g),₹ 220.00,,,A
+29,Sandwich,no_decoy,Which sandwich would you choose?,A. Club Sandwich,₹ 160.00,B. Veg Sandwich,₹ 110.00,,,A
+31,Pasta,no_decoy,Which pasta would you choose?,A. Large Pasta,₹ 320.00,B. Regular Pasta,₹ 230.00,,,A
+33,Smoothie,no_decoy,Which smoothie would you choose?,A. Large Smoothie,₹ 190.00,B. Medium Smoothie,₹ 130.00,,,A
+35,Headphones,no_decoy,Which headphones would you choose?,A. Premium Headphones,"₹ 2,400.00",B. Basic Headphones,"₹ 1,500.00",,,A
+37,Backpack,no_decoy,Which backpack would you choose?,A. Premium Backpack,"₹ 1,800.00",B. Regular Backpack,"₹ 1,200.00",,,A
+39,Notebook,no_decoy,Which notebook would you choose?,A. Premium Notebook (200 pages),₹ 150.00,B. Regular Notebook (100 pages),₹ 90.00,,,A
+41,Pen Set,no_decoy,Which pen set would you choose?,A. Premium Pen Set (10 pens),₹ 200.00,B. Regular Pen Set (5 pens),₹ 110.00,,,A
+43,Shampoo,no_decoy,Which shampoo would you choose?,A. Large Shampoo (400 ml),₹ 320.00,B. Regular Shampoo (200 ml),₹ 190.00,,,A
+45,Toothpaste,no_decoy,Which toothpaste would you choose?,A. Large Toothpaste (200 g),₹ 130.00,B. Regular Toothpaste (100 g),₹ 80.00,,,A
+47,Soap,no_decoy,Which soap pack would you choose?,A. Pack of 4 Soaps,₹ 160.00,B. Pack of 2 Soaps,₹ 90.00,,,A
+49,Detergent,no_decoy,Which detergent would you choose?,A. 2 kg Detergent,₹ 340.00,B. 1 kg Detergent,₹ 190.00,,,A
+51,Rice,no_decoy,Which rice would you choose?,A. 5 kg Basmati Rice,₹ 650.00,B. 2 kg Basmati Rice,₹ 280.00,,,A
+53,Cooking Oil,no_decoy,Which cooking oil would you choose?,A. 2 L Cooking Oil,₹ 420.00,B. 1 L Cooking Oil,₹ 230.00,,,A
+55,Water Bottle,no_decoy,Which water bottle would you choose?,A. Insulated Steel Bottle (1 L),₹ 900.00,B. Insulated Steel Bottle (500 ml),₹ 550.00,,,A
+57,Phone Case,no_decoy,Which phone case would you choose?,A. Premium Phone Case,₹ 800.00,B. Basic Phone Case,₹ 400.00,,,A
+59,Movie Ticket,no_decoy,Which movie ticket would you choose?,A. Recliner Seat,₹ 450.00,B. Standard Seat,₹ 250.00,,,A
+61,Gym Membership,no_decoy,Which gym membership would you choose?,A. 12-Month Membership,"₹ 9,000.00",B. 6-Month Membership,"₹ 5,400.00",,,A
+63,Hotel Room,no_decoy,Which hotel room would you choose?,A. Deluxe Room,"₹ 4,500.00",B. Standard Room,"₹ 3,000.00",,,A
+65,Train Ticket,no_decoy,Which train ticket would you choose?,A. AC 2-Tier,"₹ 1,600.00",B. AC 3-Tier,"₹ 1,100.00",,,A
+67,Cab Ride,no_decoy,Which cab ride would you choose?,A. Premium Sedan,₹ 520.00,B. Hatchback,₹ 340.00,,,A
+69,Mobile Data Plan,no_decoy,Which mobile data plan would you choose?,"A. 2 GB/day, 56 days",₹ 579.00,"B. 1 GB/day, 28 days",₹ 249.00,,,A
+71,Magazine Subscription,no_decoy,Which magazine subscription would you choose?,A. 12-Month Subscription,"₹ 1,200.00",B. 6-Month Subscription,₹ 700.00,,,A
+73,Sunscreen,no_decoy,Which sunscreen would you choose?,A. Large Sunscreen SPF 50 (100 ml),₹ 450.00,B. Regular Sunscreen SPF 50 (50 ml),₹ 280.00,,,A
+75,Noodles,no_decoy,Which noodles pack would you choose?,A. Family Pack Noodles,₹ 140.00,B. Regular Pack Noodles,₹ 80.00,,,A
+77,Cake,no_decoy,Which cake would you choose?,A. 1 kg Cake,₹ 700.00,B. 500 g Cake,₹ 400.00,,,A
+79,Dry Fruits,no_decoy,Which dry fruit pack would you choose?,A. 500 g Almonds,₹ 450.00,B. 250 g Almonds,₹ 260.00,,,A
+2,Coffee,decoy,Which coffee would you choose?,A. Premium Coffee,₹ 180.00,B. Regular Coffee,₹ 140.00,C. Medium Premium Coffee,₹ 170.00,A
+4,Pizza,decoy,Which pizza would you choose?,A. Large Pizza,₹ 450.00,B. Medium Pizza,₹ 330.00,C. Large Pizza (Fewer Toppings),₹ 420.00,A
+6,Burger Meal,decoy,Which burger meal would you choose?,A. Premium Burger Meal,₹ 350.00,B. Regular Burger Meal,₹ 250.00,C. Smaller Premium Burger Meal,₹ 330.00,A
+8,Shake,decoy,Which shake would you choose?,A. Large Shake,₹ 220.00,B. Medium Shake,₹ 160.00,C. Venti Shake,₹ 200.00,A
+10,Wine,decoy,Which wine would you choose?,A. Premium Wine,₹ 900.00,B. Regular Wine,₹ 650.00,C. Special Wine,₹ 850.00,A
+12,Biscuit Packet,decoy,Which biscuit packet would you choose?,A. Large Biscuit Pack,₹ 100.00,B. Regular Biscuit Pack,₹ 60.00,C. Biscuit Pack (5% extra cream),₹ 90.00,A
+14,Juice Bottle,decoy,Which juice bottle would you choose?,A. 1 Litre Juice,₹ 120.00,B. 500 ml Juice,₹ 70.00,C. 1 Litre Juice (From Concentrate),₹ 110.00,A
+16,Milk,decoy,Which milk would you choose?,A. 1 Litre Milk,₹ 70.00,B. 500 ml Milk,₹ 40.00,C. Slim 1 Litre Milk,₹ 65.00,A
+18,Cheese,decoy,Which cheese would you choose?,A. 500 g Cheese,₹ 300.00,B. 250 g Cheese,₹ 180.00,C. 500 g Local Cheese,₹ 280.00,A
+20,Butter,decoy,Which butter would you choose?,A. 500 g Butter,₹ 280.00,B. 250 g Butter,₹ 150.00,C. 500 g Butter Spread,₹ 260.00,A
+22,Ice Cream,decoy,Which ice cream would you choose?,A. 1 Litre Ice Cream,₹ 250.00,B. 500 ml Ice Cream,₹ 140.00,C. 1 Litre Frozen Dessert,₹ 230.00,A
+24,Chocolate Bar,decoy,Which chocolate bar would you choose?,A. Large Dark Chocolate Bar (150 g),₹ 220.00,B. Regular Chocolate Bar (80 g),₹ 120.00,"C. Large Chocolate Bar (150 g, Compound)",₹ 200.00,A
+26,Chips,decoy,Which chips pack would you choose?,A. Large Chips Pack,₹ 80.00,B. Regular Chips Pack,₹ 50.00,C. Large Chips Pack (Less Filled),₹ 70.00,A
+28,Tea,decoy,Which tea would you choose?,A. Premium Tea (500 g),₹ 400.00,B. Regular Tea (250 g),₹ 220.00,C. Premium Tea (400 g),₹ 380.00,A
+30,Sandwich,decoy,Which sandwich would you choose?,A. Club Sandwich,₹ 160.00,B. Veg Sandwich,₹ 110.00,C. Mini Club Sandwich,₹ 150.00,A
+32,Pasta,decoy,Which pasta would you choose?,A. Large Pasta,₹ 320.00,B. Regular Pasta,₹ 230.00,C. Large Pasta (Basic Sauce),₹ 300.00,A
+34,Smoothie,decoy,Which smoothie would you choose?,A. Large Smoothie,₹ 190.00,B. Medium Smoothie,₹ 130.00,C. Medium Premium Smoothie,₹ 180.00,A
+36,Headphones,decoy,Which headphones would you choose?,A. Premium Headphones,"₹ 2,400.00",B. Basic Headphones,"₹ 1,500.00",C. Premium Headphones (Older Model),"₹ 2,250.00",A
+38,Backpack,decoy,Which backpack would you choose?,A. Premium Backpack,"₹ 1,800.00",B. Regular Backpack,"₹ 1,200.00",C. Premium Backpack (Smaller),"₹ 1,700.00",A
+40,Notebook,decoy,Which notebook would you choose?,A. Premium Notebook (200 pages),₹ 150.00,B. Regular Notebook (100 pages),₹ 90.00,C. Premium Notebook (160 pages),₹ 140.00,A
+42,Pen Set,decoy,Which pen set would you choose?,A. Premium Pen Set (10 pens),₹ 200.00,B. Regular Pen Set (5 pens),₹ 110.00,C. Premium Pen Set (8 pens),₹ 190.00,A
+44,Shampoo,decoy,Which shampoo would you choose?,A. Large Shampoo (400 ml),₹ 320.00,B. Regular Shampoo (200 ml),₹ 190.00,C. Shampoo (350 ml),₹ 300.00,A
+46,Toothpaste,decoy,Which toothpaste would you choose?,A. Large Toothpaste (200 g),₹ 130.00,B. Regular Toothpaste (100 g),₹ 80.00,C. Toothpaste (180 g),₹ 125.00,A
+48,Soap,decoy,Which soap pack would you choose?,A. Pack of 4 Soaps,₹ 160.00,B. Pack of 2 Soaps,₹ 90.00,C. Pack of 4 Mini Soaps,₹ 150.00,A
+50,Detergent,decoy,Which detergent would you choose?,A. 2 kg Detergent,₹ 340.00,B. 1 kg Detergent,₹ 190.00,C. 2 kg Economy Detergent,₹ 320.00,A
+52,Rice,decoy,Which rice would you choose?,A. 5 kg Basmati Rice,₹ 650.00,B. 2 kg Basmati Rice,₹ 280.00,C. 5 kg Broken Basmati Rice,₹ 600.00,A
+54,Cooking Oil,decoy,Which cooking oil would you choose?,A. 2 L Cooking Oil,₹ 420.00,B. 1 L Cooking Oil,₹ 230.00,C. 2 L Blended Oil,₹ 400.00,A
+56,Water Bottle,decoy,Which water bottle would you choose?,A. Insulated Steel Bottle (1 L),₹ 900.00,B. Insulated Steel Bottle (500 ml),₹ 550.00,C. Insulated Steel Bottle (800 ml),₹ 850.00,A
+58,Phone Case,decoy,Which phone case would you choose?,A. Premium Phone Case,₹ 800.00,B. Basic Phone Case,₹ 400.00,C. Premium Phone Case (Non-Shockproof),₹ 750.00,A
+60,Movie Ticket,decoy,Which movie ticket would you choose?,A. Recliner Seat,₹ 450.00,B. Standard Seat,₹ 250.00,C. Recliner Seat (Front Row),₹ 420.00,A
+62,Gym Membership,decoy,Which gym membership would you choose?,A. 12-Month Membership,"₹ 9,000.00",B. 6-Month Membership,"₹ 5,400.00",C. 12-Month Off-Peak Membership,"₹ 8,500.00",A
+64,Hotel Room,decoy,Which hotel room would you choose?,A. Deluxe Room,"₹ 4,500.00",B. Standard Room,"₹ 3,000.00","C. Deluxe Room (Lower Floor, No View)","₹ 4,200.00",A
+66,Train Ticket,decoy,Which train ticket would you choose?,A. AC 2-Tier,"₹ 1,600.00",B. AC 3-Tier,"₹ 1,100.00",C. AC 2-Tier (Side Berth),"₹ 1,500.00",A
+68,Cab Ride,decoy,Which cab ride would you choose?,A. Premium Sedan,₹ 520.00,B. Hatchback,₹ 340.00,C. Sedan (Older Model),₹ 490.00,A
+70,Mobile Data Plan,decoy,Which mobile data plan would you choose?,"A. 2 GB/day, 56 days",₹ 579.00,"B. 1 GB/day, 28 days",₹ 249.00,"C. 2 GB/day, 49 days",₹ 549.00,A
+72,Magazine Subscription,decoy,Which magazine subscription would you choose?,A. 12-Month Subscription,"₹ 1,200.00",B. 6-Month Subscription,₹ 700.00,C. 12-Month Digital-Only Subscription,"₹ 1,100.00",A
+74,Sunscreen,decoy,Which sunscreen would you choose?,A. Large Sunscreen SPF 50 (100 ml),₹ 450.00,B. Regular Sunscreen SPF 50 (50 ml),₹ 280.00,C. Large Sunscreen SPF 30 (100 ml),₹ 420.00,A
+76,Noodles,decoy,Which noodles pack would you choose?,A. Family Pack Noodles,₹ 140.00,B. Regular Pack Noodles,₹ 80.00,C. Family Pack Noodles (Fewer Servings),₹ 130.00,A
+78,Cake,decoy,Which cake would you choose?,A. 1 kg Cake,₹ 700.00,B. 500 g Cake,₹ 400.00,C. 1 kg Plain Sponge Cake,₹ 650.00,A
+80,Dry Fruits,decoy,Which dry fruit pack would you choose?,A. 500 g Almonds,₹ 450.00,B. 250 g Almonds,₹ 260.00,C. 500 g Mixed-Grade Almonds,₹ 420.00,A

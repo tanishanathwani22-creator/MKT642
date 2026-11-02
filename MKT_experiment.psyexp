@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="MKT_experiment" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions">
+      <RoutineSettingsComponent name="Instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome!&amp;#10;In this experiment, you will be shown different products and asked to choose the option you would prefer.&amp;#10;For each question, choose the keyboard keys &quot;A&quot;, &quot;B&quot;, and &quot;C&quot; respectively.&amp;#10;&amp;#10;After each choice, you will be asked to rate how confident you are in your answer.&amp;#10;&amp;#10;Please choose the option that you would genuinely prefer and answer each question based on your own judgment.&amp;#10;&amp;#10;There are NO right or wrong answers.&amp;#10;&amp;#10;Press 'SPACE' to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Trial">
+      <RoutineSettingsComponent name="Trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.4)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Question" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="End">
+      <RoutineSettingsComponent name="End" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="End" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for your participation!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Confidence_level">
+      <RoutineSettingsComponent name="Confidence_level" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Confidence_level" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="How confident are you in your answer?" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="" valType="list" updates="constant" name="labels"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.0, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+    </Routine>
+    <Routine name="Items">
+      <RoutineSettingsComponent name="Items" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Items" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="question" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="question" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.38)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Question" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="OptionA" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="OptionA" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.45, 0.12)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Option_A" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="PriceA" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="PriceA" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.45, -0.05)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Price_A" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="OptionB" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="OptionB" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.45, 0.12)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Option_B" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="PriceB" plugin="None">
+        <Param val="white" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="PriceB" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.45, -0.05)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Price_B" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="OptionC" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="OptionC" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.20)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Option_C" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="PriceC" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="PriceC" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.36)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="20" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Price_C" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'a','b','c'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Trial', np.int64(1)), ('Item', 'Coffee'), ('Condition', 'no_decoy'), ('Question', 'Which coffee would you choose?'), ('Option_A', 'A. Premium Coffee'), ('Price_A', '₹ 180.00'), ('Option_B', 'B. Regular Coffee'), ('Price_B', '₹ 140.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(3)), ('Item', 'Pizza'), ('Condition', 'no_decoy'), ('Question', 'Which pizza would you choose?'), ('Option_A', 'A. Large Pizza'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Medium Pizza'), ('Price_B', '₹ 330.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(5)), ('Item', 'Burger Meal'), ('Condition', 'no_decoy'), ('Question', 'Which burger meal would you choose?'), ('Option_A', 'A. Premium Burger Meal'), ('Price_A', '₹ 350.00'), ('Option_B', 'B. Regular Burger Meal'), ('Price_B', '₹ 250.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(7)), ('Item', 'Shake'), ('Condition', 'no_decoy'), ('Question', 'Which shake would you choose?'), ('Option_A', 'A. Large Shake'), ('Price_A', '₹ 220.00'), ('Option_B', 'B. Medium Shake'), ('Price_B', '₹ 160.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(9)), ('Item', 'Wine'), ('Condition', 'no_decoy'), ('Question', 'Which wine would you choose?'), ('Option_A', 'A. Premium Wine'), ('Price_A', '₹ 900.00'), ('Option_B', 'B. Regular Wine'), ('Price_B', '₹ 650.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(11)), ('Item', 'Biscuit Packet'), ('Condition', 'no_decoy'), ('Question', 'Which biscuit packet would you choose?'), ('Option_A', 'A. Large Biscuit Pack'), ('Price_A', '₹ 100.00'), ('Option_B', 'B. Regular Biscuit Pack'), ('Price_B', '₹ 60.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(13)), ('Item', 'Juice Bottle'), ('Condition', 'no_decoy'), ('Question', 'Which juice bottle would you choose?'), ('Option_A', 'A. 1 Litre Juice'), ('Price_A', '₹ 120.00'), ('Option_B', 'B. 500 ml Juice'), ('Price_B', '₹ 70.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(15)), ('Item', 'Milk'), ('Condition', 'no_decoy'), ('Question', 'Which milk would you choose?'), ('Option_A', 'A. 1 Litre Milk'), ('Price_A', '₹ 70.00'), ('Option_B', 'B. 500 ml Milk'), ('Price_B', '₹ 40.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(17)), ('Item', 'Cheese'), ('Condition', 'no_decoy'), ('Question', 'Which cheese would you choose?'), ('Option_A', 'A. 500 g Cheese'), ('Price_A', '₹ 300.00'), ('Option_B', 'B. 250 g Cheese'), ('Price_B', '₹ 180.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(19)), ('Item', 'Butter'), ('Condition', 'no_decoy'), ('Question', 'Which butter would you choose?'), ('Option_A', 'A. 500 g Butter'), ('Price_A', '₹ 280.00'), ('Option_B', 'B. 250 g Butter'), ('Price_B', '₹ 150.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(21)), ('Item', 'Ice Cream'), ('Condition', 'no_decoy'), ('Question', 'Which ice cream would you choose?'), ('Option_A', 'A. 1 Litre Ice Cream'), ('Price_A', '₹ 250.00'), ('Option_B', 'B. 500 ml Ice Cream'), ('Price_B', '₹ 140.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(23)), ('Item', 'Chocolate Bar'), ('Condition', 'no_decoy'), ('Question', 'Which chocolate bar would you choose?'), ('Option_A', 'A. Large Dark Chocolate Bar (150 g)'), ('Price_A', '₹ 220.00'), ('Option_B', 'B. Regular Chocolate Bar (80 g)'), ('Price_B', '₹ 120.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(25)), ('Item', 'Chips'), ('Condition', 'no_decoy'), ('Question', 'Which chips pack would you choose?'), ('Option_A', 'A. Large Chips Pack'), ('Price_A', '₹ 80.00'), ('Option_B', 'B. Regular Chips Pack'), ('Price_B', '₹ 50.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(27)), ('Item', 'Tea'), ('Condition', 'no_decoy'), ('Question', 'Which tea would you choose?'), ('Option_A', 'A. Premium Tea (500 g)'), ('Price_A', '₹ 400.00'), ('Option_B', 'B. Regular Tea (250 g)'), ('Price_B', '₹ 220.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(29)), ('Item', 'Sandwich'), ('Condition', 'no_decoy'), ('Question', 'Which sandwich would you choose?'), ('Option_A', 'A. Club Sandwich'), ('Price_A', '₹ 160.00'), ('Option_B', 'B. Veg Sandwich'), ('Price_B', '₹ 110.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(31)), ('Item', 'Pasta'), ('Condition', 'no_decoy'), ('Question', 'Which pasta would you choose?'), ('Option_A', 'A. Large Pasta'), ('Price_A', '₹ 320.00'), ('Option_B', 'B. Regular Pasta'), ('Price_B', '₹ 230.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(33)), ('Item', 'Smoothie'), ('Condition', 'no_decoy'), ('Question', 'Which smoothie would you choose?'), ('Option_A', 'A. Large Smoothie'), ('Price_A', '₹ 190.00'), ('Option_B', 'B. Medium Smoothie'), ('Price_B', '₹ 130.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(35)), ('Item', 'Headphones'), ('Condition', 'no_decoy'), ('Question', 'Which headphones would you choose?'), ('Option_A', 'A. Premium Headphones'), ('Price_A', '₹ 2,400.00'), ('Option_B', 'B. Basic Headphones'), ('Price_B', '₹ 1,500.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(37)), ('Item', 'Backpack'), ('Condition', 'no_decoy'), ('Question', 'Which backpack would you choose?'), ('Option_A', 'A. Premium Backpack'), ('Price_A', '₹ 1,800.00'), ('Option_B', 'B. Regular Backpack'), ('Price_B', '₹ 1,200.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(39)), ('Item', 'Notebook'), ('Condition', 'no_decoy'), ('Question', 'Which notebook would you choose?'), ('Option_A', 'A. Premium Notebook (200 pages)'), ('Price_A', '₹ 150.00'), ('Option_B', 'B. Regular Notebook (100 pages)'), ('Price_B', '₹ 90.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(41)), ('Item', 'Pen Set'), ('Condition', 'no_decoy'), ('Question', 'Which pen set would you choose?'), ('Option_A', 'A. Premium Pen Set (10 pens)'), ('Price_A', '₹ 200.00'), ('Option_B', 'B. Regular Pen Set (5 pens)'), ('Price_B', '₹ 110.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(43)), ('Item', 'Shampoo'), ('Condition', 'no_decoy'), ('Question', 'Which shampoo would you choose?'), ('Option_A', 'A. Large Shampoo (400 ml)'), ('Price_A', '₹ 320.00'), ('Option_B', 'B. Regular Shampoo (200 ml)'), ('Price_B', '₹ 190.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(45)), ('Item', 'Toothpaste'), ('Condition', 'no_decoy'), ('Question', 'Which toothpaste would you choose?'), ('Option_A', 'A. Large Toothpaste (200 g)'), ('Price_A', '₹ 130.00'), ('Option_B', 'B. Regular Toothpaste (100 g)'), ('Price_B', '₹ 80.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(47)), ('Item', 'Soap'), ('Condition', 'no_decoy'), ('Question', 'Which soap pack would you choose?'), ('Option_A', 'A. Pack of 4 Soaps'), ('Price_A', '₹ 160.00'), ('Option_B', 'B. Pack of 2 Soaps'), ('Price_B', '₹ 90.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(49)), ('Item', 'Detergent'), ('Condition', 'no_decoy'), ('Question', 'Which detergent would you choose?'), ('Option_A', 'A. 2 kg Detergent'), ('Price_A', '₹ 340.00'), ('Option_B', 'B. 1 kg Detergent'), ('Price_B', '₹ 190.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(51)), ('Item', 'Rice'), ('Condition', 'no_decoy'), ('Question', 'Which rice would you choose?'), ('Option_A', 'A. 5 kg Basmati Rice'), ('Price_A', '₹ 650.00'), ('Option_B', 'B. 2 kg Basmati Rice'), ('Price_B', '₹ 280.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(53)), ('Item', 'Cooking Oil'), ('Condition', 'no_decoy'), ('Question', 'Which cooking oil would you choose?'), ('Option_A', 'A. 2 L Cooking Oil'), ('Price_A', '₹ 420.00'), ('Option_B', 'B. 1 L Cooking Oil'), ('Price_B', '₹ 230.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(55)), ('Item', 'Water Bottle'), ('Condition', 'no_decoy'), ('Question', 'Which water bottle would you choose?'), ('Option_A', 'A. Insulated Steel Bottle (1 L)'), ('Price_A', '₹ 900.00'), ('Option_B', 'B. Insulated Steel Bottle (500 ml)'), ('Price_B', '₹ 550.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(57)), ('Item', 'Phone Case'), ('Condition', 'no_decoy'), ('Question', 'Which phone case would you choose?'), ('Option_A', 'A. Premium Phone Case'), ('Price_A', '₹ 800.00'), ('Option_B', 'B. Basic Phone Case'), ('Price_B', '₹ 400.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(59)), ('Item', 'Movie Ticket'), ('Condition', 'no_decoy'), ('Question', 'Which movie ticket would you choose?'), ('Option_A', 'A. Recliner Seat'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Standard Seat'), ('Price_B', '₹ 250.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(61)), ('Item', 'Gym Membership'), ('Condition', 'no_decoy'), ('Question', 'Which gym membership would you choose?'), ('Option_A', 'A. 12-Month Membership'), ('Price_A', '₹ 9,000.00'), ('Option_B', 'B. 6-Month Membership'), ('Price_B', '₹ 5,400.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(63)), ('Item', 'Hotel Room'), ('Condition', 'no_decoy'), ('Question', 'Which hotel room would you choose?'), ('Option_A', 'A. Deluxe Room'), ('Price_A', '₹ 4,500.00'), ('Option_B', 'B. Standard Room'), ('Price_B', '₹ 3,000.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(65)), ('Item', 'Train Ticket'), ('Condition', 'no_decoy'), ('Question', 'Which train ticket would you choose?'), ('Option_A', 'A. AC 2-Tier'), ('Price_A', '₹ 1,600.00'), ('Option_B', 'B. AC 3-Tier'), ('Price_B', '₹ 1,100.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(67)), ('Item', 'Cab Ride'), ('Condition', 'no_decoy'), ('Question', 'Which cab ride would you choose?'), ('Option_A', 'A. Premium Sedan'), ('Price_A', '₹ 520.00'), ('Option_B', 'B. Hatchback'), ('Price_B', '₹ 340.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(69)), ('Item', 'Mobile Data Plan'), ('Condition', 'no_decoy'), ('Question', 'Which mobile data plan would you choose?'), ('Option_A', 'A. 2 GB/day, 56 days'), ('Price_A', '₹ 579.00'), ('Option_B', 'B. 1 GB/day, 28 days'), ('Price_B', '₹ 249.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(71)), ('Item', 'Magazine Subscription'), ('Condition', 'no_decoy'), ('Question', 'Which magazine subscription would you choose?'), ('Option_A', 'A. 12-Month Subscription'), ('Price_A', '₹ 1,200.00'), ('Option_B', 'B. 6-Month Subscription'), ('Price_B', '₹ 700.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(73)), ('Item', 'Sunscreen'), ('Condition', 'no_decoy'), ('Question', 'Which sunscreen would you choose?'), ('Option_A', 'A. Large Sunscreen SPF 50 (100 ml)'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Regular Sunscreen SPF 50 (50 ml)'), ('Price_B', '₹ 280.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(75)), ('Item', 'Noodles'), ('Condition', 'no_decoy'), ('Question', 'Which noodles pack would you choose?'), ('Option_A', 'A. Family Pack Noodles'), ('Price_A', '₹ 140.00'), ('Option_B', 'B. Regular Pack Noodles'), ('Price_B', '₹ 80.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(77)), ('Item', 'Cake'), ('Condition', 'no_decoy'), ('Question', 'Which cake would you choose?'), ('Option_A', 'A. 1 kg Cake'), ('Price_A', '₹ 700.00'), ('Option_B', 'B. 500 g Cake'), ('Price_B', '₹ 400.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(79)), ('Item', 'Dry Fruits'), ('Condition', 'no_decoy'), ('Question', 'Which dry fruit pack would you choose?'), ('Option_A', 'A. 500 g Almonds'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. 250 g Almonds'), ('Price_B', '₹ 260.00'), ('Option_C', None), ('Price_C', None), ('Target', 'A')]), OrderedDict([('Trial', np.int64(2)), ('Item', 'Coffee'), ('Condition', 'decoy'), ('Question', 'Which coffee would you choose?'), ('Option_A', 'A. Premium Coffee'), ('Price_A', '₹ 180.00'), ('Option_B', 'B. Regular Coffee'), ('Price_B', '₹ 140.00'), ('Option_C', 'C. Medium Premium Coffee'), ('Price_C', '₹ 170.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(4)), ('Item', 'Pizza'), ('Condition', 'decoy'), ('Question', 'Which pizza would you choose?'), ('Option_A', 'A. Large Pizza'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Medium Pizza'), ('Price_B', '₹ 330.00'), ('Option_C', 'C. Large Pizza (Fewer Toppings)'), ('Price_C', '₹ 420.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(6)), ('Item', 'Burger Meal'), ('Condition', 'decoy'), ('Question', 'Which burger meal would you choose?'), ('Option_A', 'A. Premium Burger Meal'), ('Price_A', '₹ 350.00'), ('Option_B', 'B. Regular Burger Meal'), ('Price_B', '₹ 250.00'), ('Option_C', 'C. Smaller Premium Burger Meal'), ('Price_C', '₹ 330.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(8)), ('Item', 'Shake'), ('Condition', 'decoy'), ('Question', 'Which shake would you choose?'), ('Option_A', 'A. Large Shake'), ('Price_A', '₹ 220.00'), ('Option_B', 'B. Medium Shake'), ('Price_B', '₹ 160.00'), ('Option_C', 'C. Venti Shake'), ('Price_C', '₹ 200.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(10)), ('Item', 'Wine'), ('Condition', 'decoy'), ('Question', 'Which wine would you choose?'), ('Option_A', 'A. Premium Wine'), ('Price_A', '₹ 900.00'), ('Option_B', 'B. Regular Wine'), ('Price_B', '₹ 650.00'), ('Option_C', 'C. Special Wine'), ('Price_C', '₹ 850.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(12)), ('Item', 'Biscuit Packet'), ('Condition', 'decoy'), ('Question', 'Which biscuit packet would you choose?'), ('Option_A', 'A. Large Biscuit Pack'), ('Price_A', '₹ 100.00'), ('Option_B', 'B. Regular Biscuit Pack'), ('Price_B', '₹ 60.00'), ('Option_C', 'C. Biscuit Pack (5% extra cream)'), ('Price_C', '₹ 90.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(14)), ('Item', 'Juice Bottle'), ('Condition', 'decoy'), ('Question', 'Which juice bottle would you choose?'), ('Option_A', 'A. 1 Litre Juice'), ('Price_A', '₹ 120.00'), ('Option_B', 'B. 500 ml Juice'), ('Price_B', '₹ 70.00'), ('Option_C', 'C. 1 Litre Juice (From Concentrate)'), ('Price_C', '₹ 110.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(16)), ('Item', 'Milk'), ('Condition', 'decoy'), ('Question', 'Which milk would you choose?'), ('Option_A', 'A. 1 Litre Milk'), ('Price_A', '₹ 70.00'), ('Option_B', 'B. 500 ml Milk'), ('Price_B', '₹ 40.00'), ('Option_C', 'C. Slim 1 Litre Milk'), ('Price_C', '₹ 65.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(18)), ('Item', 'Cheese'), ('Condition', 'decoy'), ('Question', 'Which cheese would you choose?'), ('Option_A', 'A. 500 g Cheese'), ('Price_A', '₹ 300.00'), ('Option_B', 'B. 250 g Cheese'), ('Price_B', '₹ 180.00'), ('Option_C', 'C. 500 g Local Cheese'), ('Price_C', '₹ 280.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(20)), ('Item', 'Butter'), ('Condition', 'decoy'), ('Question', 'Which butter would you choose?'), ('Option_A', 'A. 500 g Butter'), ('Price_A', '₹ 280.00'), ('Option_B', 'B. 250 g Butter'), ('Price_B', '₹ 150.00'), ('Option_C', 'C. 500 g Butter Spread'), ('Price_C', '₹ 260.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(22)), ('Item', 'Ice Cream'), ('Condition', 'decoy'), ('Question', 'Which ice cream would you choose?'), ('Option_A', 'A. 1 Litre Ice Cream'), ('Price_A', '₹ 250.00'), ('Option_B', 'B. 500 ml Ice Cream'), ('Price_B', '₹ 140.00'), ('Option_C', 'C. 1 Litre Frozen Dessert'), ('Price_C', '₹ 230.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(24)), ('Item', 'Chocolate Bar'), ('Condition', 'decoy'), ('Question', 'Which chocolate bar would you choose?'), ('Option_A', 'A. Large Dark Chocolate Bar (150 g)'), ('Price_A', '₹ 220.00'), ('Option_B', 'B. Regular Chocolate Bar (80 g)'), ('Price_B', '₹ 120.00'), ('Option_C', 'C. Large Chocolate Bar (150 g, Compound)'), ('Price_C', '₹ 200.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(26)), ('Item', 'Chips'), ('Condition', 'decoy'), ('Question', 'Which chips pack would you choose?'), ('Option_A', 'A. Large Chips Pack'), ('Price_A', '₹ 80.00'), ('Option_B', 'B. Regular Chips Pack'), ('Price_B', '₹ 50.00'), ('Option_C', 'C. Large Chips Pack (Less Filled)'), ('Price_C', '₹ 70.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(28)), ('Item', 'Tea'), ('Condition', 'decoy'), ('Question', 'Which tea would you choose?'), ('Option_A', 'A. Premium Tea (500 g)'), ('Price_A', '₹ 400.00'), ('Option_B', 'B. Regular Tea (250 g)'), ('Price_B', '₹ 220.00'), ('Option_C', 'C. Premium Tea (400 g)'), ('Price_C', '₹ 380.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(30)), ('Item', 'Sandwich'), ('Condition', 'decoy'), ('Question', 'Which sandwich would you choose?'), ('Option_A', 'A. Club Sandwich'), ('Price_A', '₹ 160.00'), ('Option_B', 'B. Veg Sandwich'), ('Price_B', '₹ 110.00'), ('Option_C', 'C. Mini Club Sandwich'), ('Price_C', '₹ 150.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(32)), ('Item', 'Pasta'), ('Condition', 'decoy'), ('Question', 'Which pasta would you choose?'), ('Option_A', 'A. Large Pasta'), ('Price_A', '₹ 320.00'), ('Option_B', 'B. Regular Pasta'), ('Price_B', '₹ 230.00'), ('Option_C', 'C. Large Pasta (Basic Sauce)'), ('Price_C', '₹ 300.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(34)), ('Item', 'Smoothie'), ('Condition', 'decoy'), ('Question', 'Which smoothie would you choose?'), ('Option_A', 'A. Large Smoothie'), ('Price_A', '₹ 190.00'), ('Option_B', 'B. Medium Smoothie'), ('Price_B', '₹ 130.00'), ('Option_C', 'C. Medium Premium Smoothie'), ('Price_C', '₹ 180.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(36)), ('Item', 'Headphones'), ('Condition', 'decoy'), ('Question', 'Which headphones would you choose?'), ('Option_A', 'A. Premium Headphones'), ('Price_A', '₹ 2,400.00'), ('Option_B', 'B. Basic Headphones'), ('Price_B', '₹ 1,500.00'), ('Option_C', 'C. Premium Headphones (Older Model)'), ('Price_C', '₹ 2,250.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(38)), ('Item', 'Backpack'), ('Condition', 'decoy'), ('Question', 'Which backpack would you choose?'), ('Option_A', 'A. Premium Backpack'), ('Price_A', '₹ 1,800.00'), ('Option_B', 'B. Regular Backpack'), ('Price_B', '₹ 1,200.00'), ('Option_C', 'C. Premium Backpack (Smaller)'), ('Price_C', '₹ 1,700.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(40)), ('Item', 'Notebook'), ('Condition', 'decoy'), ('Question', 'Which notebook would you choose?'), ('Option_A', 'A. Premium Notebook (200 pages)'), ('Price_A', '₹ 150.00'), ('Option_B', 'B. Regular Notebook (100 pages)'), ('Price_B', '₹ 90.00'), ('Option_C', 'C. Premium Notebook (160 pages)'), ('Price_C', '₹ 140.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(42)), ('Item', 'Pen Set'), ('Condition', 'decoy'), ('Question', 'Which pen set would you choose?'), ('Option_A', 'A. Premium Pen Set (10 pens)'), ('Price_A', '₹ 200.00'), ('Option_B', 'B. Regular Pen Set (5 pens)'), ('Price_B', '₹ 110.00'), ('Option_C', 'C. Premium Pen Set (8 pens)'), ('Price_C', '₹ 190.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(44)), ('Item', 'Shampoo'), ('Condition', 'decoy'), ('Question', 'Which shampoo would you choose?'), ('Option_A', 'A. Large Shampoo (400 ml)'), ('Price_A', '₹ 320.00'), ('Option_B', 'B. Regular Shampoo (200 ml)'), ('Price_B', '₹ 190.00'), ('Option_C', 'C. Shampoo (350 ml)'), ('Price_C', '₹ 300.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(46)), ('Item', 'Toothpaste'), ('Condition', 'decoy'), ('Question', 'Which toothpaste would you choose?'), ('Option_A', 'A. Large Toothpaste (200 g)'), ('Price_A', '₹ 130.00'), ('Option_B', 'B. Regular Toothpaste (100 g)'), ('Price_B', '₹ 80.00'), ('Option_C', 'C. Toothpaste (180 g)'), ('Price_C', '₹ 125.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(48)), ('Item', 'Soap'), ('Condition', 'decoy'), ('Question', 'Which soap pack would you choose?'), ('Option_A', 'A. Pack of 4 Soaps'), ('Price_A', '₹ 160.00'), ('Option_B', 'B. Pack of 2 Soaps'), ('Price_B', '₹ 90.00'), ('Option_C', 'C. Pack of 4 Mini Soaps'), ('Price_C', '₹ 150.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(50)), ('Item', 'Detergent'), ('Condition', 'decoy'), ('Question', 'Which detergent would you choose?'), ('Option_A', 'A. 2 kg Detergent'), ('Price_A', '₹ 340.00'), ('Option_B', 'B. 1 kg Detergent'), ('Price_B', '₹ 190.00'), ('Option_C', 'C. 2 kg Economy Detergent'), ('Price_C', '₹ 320.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(52)), ('Item', 'Rice'), ('Condition', 'decoy'), ('Question', 'Which rice would you choose?'), ('Option_A', 'A. 5 kg Basmati Rice'), ('Price_A', '₹ 650.00'), ('Option_B', 'B. 2 kg Basmati Rice'), ('Price_B', '₹ 280.00'), ('Option_C', 'C. 5 kg Broken Basmati Rice'), ('Price_C', '₹ 600.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(54)), ('Item', 'Cooking Oil'), ('Condition', 'decoy'), ('Question', 'Which cooking oil would you choose?'), ('Option_A', 'A. 2 L Cooking Oil'), ('Price_A', '₹ 420.00'), ('Option_B', 'B. 1 L Cooking Oil'), ('Price_B', '₹ 230.00'), ('Option_C', 'C. 2 L Blended Oil'), ('Price_C', '₹ 400.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(56)), ('Item', 'Water Bottle'), ('Condition', 'decoy'), ('Question', 'Which water bottle would you choose?'), ('Option_A', 'A. Insulated Steel Bottle (1 L)'), ('Price_A', '₹ 900.00'), ('Option_B', 'B. Insulated Steel Bottle (500 ml)'), ('Price_B', '₹ 550.00'), ('Option_C', 'C. Insulated Steel Bottle (800 ml)'), ('Price_C', '₹ 850.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(58)), ('Item', 'Phone Case'), ('Condition', 'decoy'), ('Question', 'Which phone case would you choose?'), ('Option_A', 'A. Premium Phone Case'), ('Price_A', '₹ 800.00'), ('Option_B', 'B. Basic Phone Case'), ('Price_B', '₹ 400.00'), ('Option_C', 'C. Premium Phone Case (Non-Shockproof)'), ('Price_C', '₹ 750.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(60)), ('Item', 'Movie Ticket'), ('Condition', 'decoy'), ('Question', 'Which movie ticket would you choose?'), ('Option_A', 'A. Recliner Seat'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Standard Seat'), ('Price_B', '₹ 250.00'), ('Option_C', 'C. Recliner Seat (Front Row)'), ('Price_C', '₹ 420.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(62)), ('Item', 'Gym Membership'), ('Condition', 'decoy'), ('Question', 'Which gym membership would you choose?'), ('Option_A', 'A. 12-Month Membership'), ('Price_A', '₹ 9,000.00'), ('Option_B', 'B. 6-Month Membership'), ('Price_B', '₹ 5,400.00'), ('Option_C', 'C. 12-Month Off-Peak Membership'), ('Price_C', '₹ 8,500.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(64)), ('Item', 'Hotel Room'), ('Condition', 'decoy'), ('Question', 'Which hotel room would you choose?'), ('Option_A', 'A. Deluxe Room'), ('Price_A', '₹ 4,500.00'), ('Option_B', 'B. Standard Room'), ('Price_B', '₹ 3,000.00'), ('Option_C', 'C. Deluxe Room (Lower Floor, No View)'), ('Price_C', '₹ 4,200.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(66)), ('Item', 'Train Ticket'), ('Condition', 'decoy'), ('Question', 'Which train ticket would you choose?'), ('Option_A', 'A. AC 2-Tier'), ('Price_A', '₹ 1,600.00'), ('Option_B', 'B. AC 3-Tier'), ('Price_B', '₹ 1,100.00'), ('Option_C', 'C. AC 2-Tier (Side Berth)'), ('Price_C', '₹ 1,500.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(68)), ('Item', 'Cab Ride'), ('Condition', 'decoy'), ('Question', 'Which cab ride would you choose?'), ('Option_A', 'A. Premium Sedan'), ('Price_A', '₹ 520.00'), ('Option_B', 'B. Hatchback'), ('Price_B', '₹ 340.00'), ('Option_C', 'C. Sedan (Older Model)'), ('Price_C', '₹ 490.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(70)), ('Item', 'Mobile Data Plan'), ('Condition', 'decoy'), ('Question', 'Which mobile data plan would you choose?'), ('Option_A', 'A. 2 GB/day, 56 days'), ('Price_A', '₹ 579.00'), ('Option_B', 'B. 1 GB/day, 28 days'), ('Price_B', '₹ 249.00'), ('Option_C', 'C. 2 GB/day, 49 days'), ('Price_C', '₹ 549.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(72)), ('Item', 'Magazine Subscription'), ('Condition', 'decoy'), ('Question', 'Which magazine subscription would you choose?'), ('Option_A', 'A. 12-Month Subscription'), ('Price_A', '₹ 1,200.00'), ('Option_B', 'B. 6-Month Subscription'), ('Price_B', '₹ 700.00'), ('Option_C', 'C. 12-Month Digital-Only Subscription'), ('Price_C', '₹ 1,100.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(74)), ('Item', 'Sunscreen'), ('Condition', 'decoy'), ('Question', 'Which sunscreen would you choose?'), ('Option_A', 'A. Large Sunscreen SPF 50 (100 ml)'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. Regular Sunscreen SPF 50 (50 ml)'), ('Price_B', '₹ 280.00'), ('Option_C', 'C. Large Sunscreen SPF 30 (100 ml)'), ('Price_C', '₹ 420.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(76)), ('Item', 'Noodles'), ('Condition', 'decoy'), ('Question', 'Which noodles pack would you choose?'), ('Option_A', 'A. Family Pack Noodles'), ('Price_A', '₹ 140.00'), ('Option_B', 'B. Regular Pack Noodles'), ('Price_B', '₹ 80.00'), ('Option_C', 'C. Family Pack Noodles (Fewer Servings)'), ('Price_C', '₹ 130.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(78)), ('Item', 'Cake'), ('Condition', 'decoy'), ('Question', 'Which cake would you choose?'), ('Option_A', 'A. 1 kg Cake'), ('Price_A', '₹ 700.00'), ('Option_B', 'B. 500 g Cake'), ('Price_B', '₹ 400.00'), ('Option_C', 'C. 1 kg Plain Sponge Cake'), ('Price_C', '₹ 650.00'), ('Target', 'A')]), OrderedDict([('Trial', np.int64(80)), ('Item', 'Dry Fruits'), ('Condition', 'decoy'), ('Question', 'Which dry fruit pack would you choose?'), ('Option_A', 'A. 500 g Almonds'), ('Price_A', '₹ 450.00'), ('Option_B', 'B. 250 g Almonds'), ('Price_B', '₹ 260.00'), ('Option_C', 'C. 500 g Mixed-Grade Almonds'), ('Price_C', '₹ 420.00'), ('Target', 'A')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="decoy_stimuli_80.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Items"/>
+    <Routine name="Confidence_level"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
